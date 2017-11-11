@@ -1,0 +1,9 @@
+---
+name: robot_wave_concurrency
+pack: demo
+description: Limits the concurrent executions of the robot arm wave workflow.
+enabled: true
+resource_ref: robotpack.wave
+policy_type: action.concurrency
+parameters:
+    threshold: 1

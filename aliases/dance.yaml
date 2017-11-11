@@ -1,0 +1,12 @@
+---
+name: dance
+pack: demo
+action_ref: robotpack.wave
+description: 跳舞
+formats:
+  - "dance"
+ack:
+  enabled: false
+result:
+  format: |
+    All your base are belong to us. Mah ha ha ha...
