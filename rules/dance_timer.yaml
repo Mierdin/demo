@@ -1,0 +1,14 @@
+---
+name: "dance_timer"
+pack: "demo"
+description: "Move arm periodically to attract attention"
+enabled: true
+
+trigger:
+  type: "core.st2.IntervalTimer"
+  parameters:
+      unit: "minutes"
+      delta: 2
+
+action:
+    ref: robotpack.wave
